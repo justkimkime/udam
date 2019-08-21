@@ -7,7 +7,7 @@
 .main_slider{
     width: 100%;
     height: 560px;
-    background: url(../images/sub/subvisual_bg1.jpg) no-repeat center center;
+    background: url(../images/subvisual_bg1.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -47,7 +47,7 @@
     color: #bbb;
     margin: 0 auto;
     font-size: 20px;
-    background: url(../images/sub/bracket_title.png) no-repeat center;
+    background: url(../images/bracket_title.png) no-repeat center;
 }
 .main_text .big_text{
     font-size: 56px;
@@ -73,14 +73,14 @@
     text-indent: -9999px;
     border-right: 0;
     width: 60px;
-    background: #f47a20 url(../images/sub/ico_home.png) no-repeat;
+    background: #f47a20 url(../images/ico_home.png) no-repeat;
 }
 .sub_nav .navIntro{
     width: 140px;
     border-right: 1px solid #e4e4e4;
 }
 .sub_nav .navMenu{
-    background: url(../images/sub/ar_snb.png) no-repeat right 0;
+    background: url(../images/ar_snb.png) no-repeat right 0;
     text-align: left;
     width: 180px;
     box-sizing: border-box;
@@ -112,7 +112,7 @@
     background: #fff;
 }
 .subLnb li:hover{
-    background: #fff url(../images/sub/ar_snb.png) no-repeat right 0;
+    background: #fff url(../images/ar_snb.png) no-repeat right 0;
 }
 
 /*mainCon1*/
@@ -135,7 +135,7 @@
 .subInfo{
     width: 100%;
     height: 700px;
-    background: url(../images/sub/bg_introduction_info.png) no-repeat center bottom;
+    background: url(../images/bg_introduction_info.png) no-repeat center bottom;
     background-size: cover;
 }
 .subInfo h3{}
@@ -184,7 +184,7 @@
     margin-left: 10px;
     width: 110px;
     height: 25px;
-    background: #fff url(../images/sub/bg_sendemail.png) center 1px no-repeat;
+    background: #fff url(../images/bg_sendemail.png) center 1px no-repeat;
     border: 1px solid #b5b5b5;
     font-size: 12px;
     line-height: 25px;
@@ -196,7 +196,7 @@
     transition: color 0.5s;
 }
 .subInfo .mailBox:hover{
-    background: #fff url(../images/sub/bg_sendemail_hover.png) center 1px no-repeat;
+    background: #fff url(../images/bg_sendemail_hover.png) center 1px no-repeat;
     border-color: #2c2c2c;
 }
 .subInfo .mailBox:hover a{
