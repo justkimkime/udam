@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+#container{
+    margin-top: 105px;
+}
+.main_slider{
+    width: 100%;
+    height: 560px;
+    background: url(../images/sub/subvisual_bg1.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.main_slider .main_text{
+    text-align: center;
+    padding-top: 100px;
+}
+.main_text li{
+    font-size: 50px;
+    line-height: 75px;
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+    color: #fff;
+    letter-spacing: 15px;
+    font-weight: 300;
+}
+.main_text li span{
+    color: #f47a20;
+}
+.big_text span{
+    color: #f47a20;
+    position: relative;
+}
+.big_text span:after{
+    content: "";
+    width: 160px;
+    height: 1px;
+    display:inline-block;
+    background: #f47a20;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.main_text .small_text{
+    text-shadow: none;
+    width: 370px;
+    color: #bbb;
+    margin: 0 auto;
+    font-size: 20px;
+    background: url(../images/sub/bracket_title.png) no-repeat center;
+}
+.main_text .big_text{
+    font-size: 56px;
+}
+
+/*서브메뉴*/
+.sub_nav{
+    width: 1200px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -600px;
+    position: absolute;
+    background: #fff;
+    height: 59px;
+    text-align: center;
+    line-height: 59px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.sub_nav>li{
+    float: left;
+}
+.sub_nav .navHome{
+    text-indent: -9999px;
+    border-right: 0;
+    width: 60px;
+    background: #f47a20 url(../images/sub/ico_home.png) no-repeat;
+}
+.sub_nav .navIntro{
+    width: 140px;
+    border-right: 1px solid #e4e4e4;
+}
+.sub_nav .navMenu{
+    background: url(../images/sub/ar_snb.png) no-repeat right 0;
+    text-align: left;
+    width: 180px;
+    box-sizing: border-box;
+    padding:0 20px;
+    position: relative;
+    border-right: 1px solid #e4e4e4;
+}
+.subLnb{
+    max-height: 0;
+    left: -1px;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.09);
+}
+.navMenu:hover .subLnb{
+    max-height:1000px;
+}
+.subLnb li:first-child{
+    border-top: 1px solid #e4e4e4;
+}
+.subLnb li{
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    padding: 0 20px;
+    width: 180px;
+    background: #fff;
+}
+.subLnb li:hover{
+    background: #fff url(../images/sub/ar_snb.png) no-repeat right 0;
+}
+
+/*mainCon1*/
+.mainCon1{
+    padding-top: 40px;
+}
+.mainCon1 h3{
+    font-size: 40px;
+    color: #090909;
+    font-weight: 400;
+}
+.mainCon1 h3:before{
+    content: "";
+    width: 32px;
+    height: 2px;
+    display: block;
+    background: #090909;
+}
+
+.subInfo{
+    width: 100%;
+    height: 700px;
+    background: url(../images/sub/bg_introduction_info.png) no-repeat center bottom;
+    background-size: cover;
+}
+.subInfo h3{}
+.subInfo h4{
+    margin-top: 40px;
+    padding-bottom: 25px;
+    font-family: 'notoM';
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-left: 10px;
+}
+.subInfo dl{
+    margin-left: 10px;
+    font-size: 0;
+    font-weight: 200;
+    font-size: 13px;
+    padding-bottom: 20px
+}
+.mainCon1 .subInfo dl dt{
+    display: inline-block;
+    color: #2c2c2c;
+    width: 70px;
+    position: relative;
+}
+.mainCon1 .subInfo dl dt:after{
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: #6c6c6c;
+    margin: ;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+.mainCon1 .subInfo dl dd{
+    vertical-align: top;
+    display: inline-block;
+    color:#6c6c6c;
+    margin-left: 10px;
+}
+.subInfo .mailBox{
+    margin-left: 10px;
+    width: 110px;
+    height: 25px;
+    background: #fff url(../images/sub/bg_sendemail.png) center 1px no-repeat;
+    border: 1px solid #b5b5b5;
+    font-size: 12px;
+    line-height: 25px;
+    text-indent: 17px;
+    transition: all 0.5s;
+}
+.subInfo .mailBox a{
+    color: #b5b5b5;
+    transition: color 0.5s;
+}
+.subInfo .mailBox:hover{
+    background: #fff url(../images/sub/bg_sendemail_hover.png) center 1px no-repeat;
+    border-color: #2c2c2c;
+}
+.subInfo .mailBox:hover a{
+    color: #2c2c2c;
+}
+
+
+.subTextWrap{
+    padding: 110px 70px 70px 70px;
+}
+.subTextWrap .subTitle{
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 300;
+}
+.subTextWrap .subText{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23px;
+    color: #949494;
+}
+
+/*mainCon2*/
+.mainCon2,.mainCon3{
+    margin-top: 80px;
+}
+.mainCon2 dl,.mainCon3 dl{
+    font-size: 0;
+    font-weight: 200;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-bottom: 20px
+}
+.mainCon2 dl dt,.mainCon3 dl dt{
+    display: inline-block;
+    color: #2c2c2c;
+    width: 80px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align:middle;
+}
+.mainCon2 dl dt:after,.mainCon3 dl dt:after{
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: #6c6c6c;
+    margin: ;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+.mainCon2 dl dd,.mainCon3 dl dd{
+    vertical-align: top;
+    display: inline-block;
+    color:#6c6c6c;
+    margin-left: 10px;
+    font-size: 14px;
+    vertical-align:middle;
+}
+
+.con2Icon{
+    text-align: center;
+}
+.con2Icon li{
+    font-size: 13px;
+    float: left;
+    width: 200px;
+}
+.con2Icon li img{}
+.con2Icon li p{
+    margin-top: 15px;
+}
+
+/*mainCon3*/
+.mainCon3{
+    padding-bottom: 80px;
+}
+
+.business{
+    font-size: 0;
+    margin-left: 10px;
+}
+.business li{
+    float: left;
+    margin-left: 50px;
+    height: 175px;
+}
+.business li:first-child,.business li:nth-child(5){
+    margin-left: 0;
+}
+.business li img{}
+.business li p{
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #303030;
+    font-size: 13px;
+}
+
+/*푸터*/
