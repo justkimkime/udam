@@ -72,16 +72,16 @@
 }
 
 .btn_pre_down .prev_btn{
-    background: #fff url(../images/sub/btn_link1_off.png) no-repeat 22px 18px; 
+    background: #fff url(../images/btn_link1_off.png) no-repeat 22px 18px; 
 }
 .btn_pre_down .down_btn{
-    background: #fff url(../images/sub/btn_link2_off.png) no-repeat 10px 18px; 
+    background: #fff url(../images/btn_link2_off.png) no-repeat 10px 18px; 
 }
 .btn_pre_down .prev_btn:hover{
-    background: #fff url(../images/sub/btn_link1_on.png) no-repeat 22px 18px;
+    background: #fff url(../images/btn_link1_on.png) no-repeat 22px 18px;
 }
 .btn_pre_down .down_btn:hover{
-    background:#fff  url(../images/sub/btn_link2_on.png) no-repeat 10px 18px;
+    background:#fff  url(../images/btn_link2_on.png) no-repeat 10px 18px;
 }
 /*lnb*/
 .lnb{
@@ -298,7 +298,7 @@
 }
 .footerBottom .site{
     line-height: 42px;
-    background: url(..//images/sub/ico_add.png) right center no-repeat;
+    background: url(../images/ico_add.png) right center no-repeat;
     width: 170px;
     position: relative;
     margin-right: 42px;
@@ -307,7 +307,7 @@
     position: fixed;
     right: 0;
     bottom: 0;
-    background: #888 url(..//images/sub/ico_scroll.png) no-repeat ;
+    background: #888 url(../images/ico_scroll.png) no-repeat ;
 }
 
 .footerSubMenu{
